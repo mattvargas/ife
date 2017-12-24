@@ -12,6 +12,15 @@
     height: 30px;
     line-height: 30px;
 }
+
+.orcamento-online { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    width: 10px;
+    height:auto;
+    }
 .input-sm {
  margin-bottom: 0px;
     align-items: center;
