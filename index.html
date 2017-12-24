@@ -143,36 +143,154 @@
                     <p>Muito mais que uma assistência.</p>
                     <!--Simple description for section goes here. -->
                 </div>
-                <div class="row-fluid">
-                    <div class="span4">
-                        <div class="centered service">
-                            <div class="circle-border zoom-in">
-                                <img class="img-circle" src="images/Service1.png" alt="service 1">
-                            </div>
-                            <h3>Nossa loja</h3>
-                            <p>Funcionamos de 
-                            Segunda à Sexta das 10:00 às 18:00.</p>
-                        </div>
+                
+                <div><form class="form-inline" id="frm-oracmento-default" novalidate="novalidate">
+                    <div class="form-group">
+                    <img src="http://www.consertasmart.com/content/images/orcamentoonline.gif">
+                    <input class="form-control input-sm" placeholder="Qual aparelho" name="modelo" style="width:120px;" required="">
+                    
                     </div>
-                    <div class="span4">
-                        <div class="centered service">
-                            <div class="circle-border zoom-in">
-                                <img class="img-circle" src="images/Service2.png" alt="service 2" />
-                            </div>
-                            <h3>Preços Competitivos</h3>
-                            <p>Troca de tela à partir de 149,99.</p>
-                        </div>
+                    
+                    <div class="form-group">
+                        <select class="form-control input-sm" placeholder="Qual o defeito?" name="defeito" style="max-width:150px;" id="orcamento-defeito" required="">
+                            <option disabled="" selected=""> Qual o defeito?</option>
+                            
+                                    <option value="TouchScreen não funciona ou está quebrado">TouchScreen não funciona ou está quebrado</option>
+                            
+                                    <option value="Lcd não aparece imagem ou está quebrado">Lcd não aparece imagem ou está quebrado</option>
+                            
+                                    <option value="Não liga">Não liga</option>
+                            
+                                    <option value="Não carrega">Não carrega</option>
+                            
+                                    <option value="Não tem sinal da operadora">Não tem sinal da operadora</option>
+                            
+                                    <option value="Não pega Wi-fi">Não pega Wi-fi</option>
+                            
+                                    <option value="Travado no logo">Travado no logo</option>
+                            
+                                    <option value="Reiniciando">Reiniciando</option>
+                            
+                                    <option value="Não segura carga">Não segura carga</option>
+                            
+                                    <option value="Não reconhece sim na bandeja">Não reconhece sim na bandeja</option>
+                            
+                                    <option value="Display branco, listrado ou azul">Display branco, listrado ou azul</option>
+                            
+                                    <option value="Pessoa não escuta sua voz ligação">Pessoa não escuta sua voz ligação</option>
+                            
+                                    <option value="Você não escuta a pessoa ligação">Você não escuta a pessoa ligação</option>
+                            
+                                    <option value="Som não funciona música e toques">Som não funciona música e toques</option>
+                            
+                                    <option value="Botão ruim, emperrado">Botão ruim, emperrado</option>
+                            
+                                    <option value="Molhou">Molhou</option>
+                            
+                                    <option value="Problema em aplicativo, erros de software">Problema em aplicativo, erros de software</option>
+                            
+                                    <option value="Aparelho lento">Aparelho lento</option>
+                            
+                                    <option value="Sensor não funciona Proximidade e outros">Sensor não funciona Proximidade e outros</option>
+                            
+                                    <option value="Câmera não funciona">Câmera não funciona</option>
+                            
+                                    <option value="Câmera fora de foco">Câmera fora de foco</option>
+                            
+                                    <option value="Bateria sem carga">Bateria sem carga</option>
+                            
+                                    <option value="Solda Fria">Solda Fria</option>
+                            
+                                    <option value="Placa em curto">Placa em curto</option>
+                            
+                                    <option value="Duração de Bateria">Duração de Bateria</option>
+                            
+                                    <option value="Não consegue conectar Wifi">Não consegue conectar Wifi</option>
+                            
+                                    <option value="Problemas no microfone">Problemas no microfone</option>
+                            
+                                    <option value="Problemas no alto falante">Problemas no alto falante</option>
+                            
+                                    <option value="Esquentando">Esquentando</option>
+                            
+                                    <option value="Tela quebrada">Tela quebrada</option>
+                            
+                                    <option value="Não conecta wifi">Não conecta wifi</option>
+                            
+                                    <option value="Não desliga">Não desliga</option>
+                            
+                                    <option value="Não tira foto">Não tira foto</option>
+                            
+                                    <option value="Não conecta no pc">Não conecta no pc</option>
+                            
+                                    <option value="Não atualiza">Não atualiza</option>
+                            
+                                    <option value="Não encontra rede">Não encontra rede</option>
+                            
+                                    <option value="Não envia email">Não envia email</option>
+                            
+                                    <option value="Não baixa app">Não baixa app</option>
+                            
+                                    <option value="Não navega">Não navega</option>
+                            
+                                    <option value="Não quer ligar">Não quer ligar</option>
+                            
+                                    <option value="Não restaura">Não restaura</option>
+                            
+                                    <option value="Não reconhece chip">Não reconhece chip</option>
+                            
+                                    <option value="Não toca som">Não toca som</option>
+                            
+                                    <option value="Não sai som">Não sai som</option>
+                            
+                                    <option value="Não faz ligação">Não faz ligação</option>
+                            
+                                    <option value="Não gira tela">Não gira tela</option>
+                            
+                                    <option value="Não vibra">Não vibra</option>
+                            
+                                    <option value="Trocar tela">Trocar tela</option>
+                            
+                                    <option value="Trocar bateria">Trocar bateria</option>
+                            
+                                    <option value="Desoxidação">Desoxidação</option>
+                            
+                               
+                               <option value="">Outro defeito...</option>
+                        </select>
+                        <input class="form-control input-sm" placeholder="Qual o Defeito?" name="defeito1" style="width:80px; display:none;" required="">
                     </div>
-                    <div class="span4">
-                        <div class="centered service">
-                            <div class="circle-border zoom-in">
-                                <img class="img-circle" src="images/Service3.png" alt="service 3">
-                            </div>
-                            <h3>Ordem de Serviço</h3>
-                            <p>We Create Modern And Powerful Html5 And CSS3 Code Easy For Read And Customize.</p>
-                        </div>
+                    
+                    <div class="form-group">
+                        <input class="form-control input-sm" placeholder="Seu nome" name="nome" style="width:80px;" required="">
                     </div>
-                </div>
+                    <div class="form-group">
+                        <input class="form-control input-sm" placeholder="Seu email" name="email" style="width:100px;" type="email" required="">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control input-sm celular" placeholder="Seu telefone" name="telefone" style="width:120px;" required="">
+                    </div>
+                    
+                    <div class="form-group">
+                        
+                        
+                        <select class="form-control input-sm" name="unidade" style="width:140px;" required="">
+                            <option disabled="" selected="">Selecione a unidade?</option>
+                            
+                            
+                            <option value="131">RIO DE JANEIRO VILA VALQUEIRE - RJ</option>
+                            
+                            
+                        </select>
+                        
+                        
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-sm">OK</button>
+                </form>
+            </div>
+
+
             </div>
         </div>
         <!-- Service section end -->
