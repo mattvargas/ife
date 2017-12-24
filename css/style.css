@@ -34,16 +34,6 @@
 
 }
 
-
-.orcamento-online { 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background: transparent;
-    width: 10px;
-    height:auto;
-}
-
 .inline-form
 
 button, input, select, textarea {
