@@ -34,20 +34,13 @@
 
 }
 
-.logo { 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background: black;
-    width: 150px;
-    height:50px;
-}
+
 .orcamento-online { 
     display: block;
     margin-left: auto;
     margin-right: auto;
     background: transparent;
-    width: auto;
+    width: 10px;
     height:auto;
 }
 
