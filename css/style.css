@@ -34,6 +34,14 @@
 
 }
 
+#enviar {
+    display: block;
+    margin-left: auto;
+    width: auto;
+    height:auto;
+	
+}
+
 .inline-form
 
 button, input, select, textarea {
