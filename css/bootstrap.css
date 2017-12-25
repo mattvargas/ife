@@ -9,11 +9,12 @@
  */
 
 #enviar {
-    display: block;
-    margin-left: auto;
+    mmargin-left: auto;
+    margin-right: auto;
     width: auto;
     height:auto;
     align-items: center;
+    text-align: center;
     padding: 10px 10px;
 }
 
