@@ -34,16 +34,6 @@
 
 }
 
-#enviar {
-    display: block;
-    margin-left: auto;
-    width: auto;
-    height:auto;
-    align-items: center;
-    padding: 10px 10px;
-	
-}
-
 .inline-form
 
 button, input, select, textarea {
