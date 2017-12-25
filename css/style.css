@@ -39,7 +39,8 @@
     margin-left: auto;
     width: auto;
     height:auto;
-    aling-itens: center;
+    align-items: center;
+    padding: 10px 10px;
 	
 }
 
