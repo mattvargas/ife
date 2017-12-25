@@ -8,6 +8,16 @@
  * Designed and built with all the love in the world by @mdo and @fat.
  */
 
+#enviar {
+    display: block;
+    margin-left: auto;
+    width: auto;
+    height:auto;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+
  select.input-sm {
     height: 30px;
     line-height: 30px;
